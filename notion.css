@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFFEFC;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo { 
+    cursor: pointer;
+    width: 125px;
+    margin-right: auto;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#navbar ul li:hover {
+    background-color: #F8F4F0;
+    border-radius: 5px;
+}
+
+#navbar h2 {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login {
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.signup {
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.login:hover {
+    background-color: #F8F4F0
+}
+
+.signup:hover {
+    background-color: #F8F4F0
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
+
+.main_image {
+    width: 600px;
+    margin: auto;
+    display: block;
+} 
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 5px;
+}
+
+.subheader {
+    color: rgba(0,0,0,0.6);
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+input::placeholder {
+    text-align: left;
+    color: rgba(0,0,0,0.3);
+}
+
+#emailbox {
+    text-align: left;
+    font-size: 15px;
+    width: 250px;
+    height: 35px;
+    padding: 7.5px;
+    margin: 7.5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+button {
+    background-color: #E1625A;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 7.5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #be5643;
+}
+
+.subsubheader {
+    font-size: 1em;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 75px;
+}
+
+#preview {
+    display: inline-block;
+}
+
+#preview ul {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#preview ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.preview1:hover, .preview2:hover, .preview3:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
